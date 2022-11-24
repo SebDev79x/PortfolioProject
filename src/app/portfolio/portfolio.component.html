@@ -1,0 +1,22 @@
+<section class="portfolio">
+  <h1>Projets personnels :</h1>
+  <div class="grid-container">
+    <div class="grid-item item{{project.id}}" *ngFor="let project of projects">
+      <mat-card class="bg-color-dark color-white">
+        <mat-card-title>
+          {{project.title}}
+        </mat-card-title>
+        <mat-card-subtitle>
+          {{project.subtitle}}
+        </mat-card-subtitle>
+        <img [src]="project.imageUrl" alt="" mat-card-image>
+        <mat-card-content>
+          {{project.comment}}
+        </mat-card-content>
+        <mat-card-actions>
+          <button class="moreInfos" mat-raised-button>+ d'infos</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</section>
