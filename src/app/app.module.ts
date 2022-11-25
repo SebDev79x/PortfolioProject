@@ -9,25 +9,26 @@ import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
-import { SkillsComponent } from './skills/skills.component';
 import { XpComponent } from './xp/xp.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { MatCardModule } from '@angular/material/card';
 import { NavbarComponent } from './navbar/navbar.component';
-import {MatToolbarModule} from '@angular/material/toolbar'; @NgModule({
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { PrivacyComponent } from './privacy/privacy.component';
+@NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
     SidenavComponent,
     FooterComponent,
     HomeComponent,
-    SkillsComponent,
     XpComponent,
     ContactComponent,
     PortfolioComponent,
-    NavbarComponent  ],
+    NavbarComponent,
+    PrivacyComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -35,7 +35,11 @@
               "src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/tarteaucitronjs/tarteaucitron.js",
+             "./node_modules/tarteaucitronjs/tarteaucitron.services.js",
+             "./node_modules/tarteaucitronjs/lang/tarteaucitron.fr.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -110,5 +114,8 @@
       }
     }
   },
-  "defaultProject": "CVAngular"
+  "defaultProject": "CVAngular",
+  "cli": {
+    "analytics": "759edf25-899e-4a22-90ae-39aac5130228"
+  }
 }
